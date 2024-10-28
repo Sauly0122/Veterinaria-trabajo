@@ -1,0 +1,32 @@
+/* Estilos personalizados */
+body {
+    padding-top: 56px;
+}
+
+#inicio {
+    padding: 100px 0;
+}
+
+.contact-card {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+.phone-number {
+    font-size: 2rem;
+    color: #333;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
